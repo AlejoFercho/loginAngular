@@ -1,0 +1,11 @@
+
+    <div class=" form-signin">
+    <h1 class="h3 mb-3 font-weight-normal">LOGIN</h1>
+    <label for="inputEmail" class="sr-only">Usuario</label>
+    <input [(ngModel)]="user.nombre" type="email"  class="form-control" placeholder="Usuario">
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input [(ngModel)]="user.usu_pass" type="password"class="form-control" placeholder="Password">
+    <div class="checkbox mb-3">
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" (click)="LogIn()" >Ingresar</button>
+</div>
